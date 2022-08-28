@@ -40,7 +40,9 @@
 
 .showcase.active {
     right: 300px;
+    transition: 0.5s;
 }
+
 .logo {
     text-transform: uppercase;
     cursor: pointer;
@@ -65,6 +67,7 @@
     background-position: center;
     cursor: pointer;
 }
+
 
 .showcase video {
     position: absolute;
@@ -162,8 +165,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
+
 
 .menu ul {
     position: relative;
@@ -177,7 +180,7 @@
 }
 
 .menu ul li a:hover {
-    color: white;
+    color: rgb(30, 154, 160);
 }
 
 @media (max-width: 991px) {
