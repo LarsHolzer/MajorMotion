@@ -105,6 +105,7 @@
     margin: 20px 0;
     font-weight: 300;
     max-width: 700px;
+    text-align: center;
 
 }
 .images {
@@ -124,11 +125,12 @@
     max-width: 100%;
     height: auto;
     display: block;
+    border: 5px solid rgba(255, 255, 255, 0.735);
 
 }
 
 .images img {
-    width: 10em;
+    width: 10em ;
     height: auto;
 }
 
@@ -268,7 +270,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    text-align: center;
 }
 
 .text-main h3 {
@@ -360,8 +362,8 @@
   
 .sidenav .closebtn {
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: 0.9em;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 36px;
-    margin-right: 60px;
 }
