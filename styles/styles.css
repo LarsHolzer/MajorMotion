@@ -163,20 +163,20 @@
     letter-spacing: 6px;
   }
 
-
 .form-popup {
     display: none;
-    border: 3px solid #f1f1f1;
+    border: 3px solid #b5b3b3;
     z-index: 15;
     outline: 0 none;
     position: fixed !important;
-    top: 10% !important;
+    top: 5% !important;
+    left: 40% !important;
 }
 
 .form-container {
     max-width: 300px;
     padding:10px;
-    background-color: white;
+    background-color: rgb(32, 31, 31);
     position: relative;
     margin: 0 auto;
     top:25%
@@ -187,13 +187,14 @@
     padding: 15px;
     margin: 5px 0 22px 0;
     border: none;
-    background: #f1f1f1;
-    box-shadow: 3px 3px 6px silver
+    background: #323232;
+    color: #ffffff;
+    box-shadow: 3px 3px 6px rgb(53, 49, 49)
   }
   
   /* When the inputs get focus, do something */
   .form-container input[type=text]:focus, .form-container input[type=subject]:focus {
-    background-color: #ddd;
+    background-color: #323232;
     outline: none;
   }
   
@@ -224,17 +225,21 @@
   }
 
 #subject {
+    color: white;
     width: 100%;
-    box-shadow: 3px 3px 6px silver
+    box-shadow: 3px 3px 6px rgb(36, 34, 34);
+    background-color: #323232;
 }
 
 .label {
+    color: white;
     font-weight: bold;
-    text-shadow: 1px 1px 3px rgb(168, 165, 165)
+    text-shadow: 1px 1px 3px rgba(151, 148, 148, 0.557)
 }
 
 #popup-title {
-    text-shadow: 1px 1px 3px rgb(168, 165, 165)
+    color: white;
+    text-shadow: 1px 1px 3px rgba(139, 137, 137, 0.531)
 }
 
 #myForm {
@@ -244,7 +249,9 @@
 #myForm.fade {
     opacity: 0;
 }
-
+.form-container .submit {
+    background-color: rgb(67, 68, 66);
+}
 
 
 /* Main Section */
@@ -277,7 +284,7 @@
     font-size: 1.8em;
 }
 .footer {
-    background-color: rgb(4, 18, 47);
+    background-color: rgb(21, 6, 35);
     position: relative;
     bottom: 0px;
     height: 60px;
@@ -354,6 +361,10 @@
     color: #818181;
     display: block;
     transition: 0.3s;
+}
+
+.sidenav li {
+    list-style: none;
 }
   
 .sidenav a:hover {

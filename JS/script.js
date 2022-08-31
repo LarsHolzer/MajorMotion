@@ -24,3 +24,9 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
+
+// open landingpage
+ 
+function mvlandingpage() {
+  window.location.href = "../index.html";
+}

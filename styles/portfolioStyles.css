@@ -7,88 +7,20 @@
     font-family: "Poppins", sans-serif;
 }
 
-.showcase {
-    position: absolute;
-    right: 0;
-    width: 100%;
-    min-height: 100vh;
-    padding:100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #111;
-    color: #fff;
-    z-index: 2;
-
+.showcase_portfolio {
+    background-color: black;
 }
 
-.menu {
-    display: none;
-}
-
-.showcase header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 40px 100px;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.showcase.active {
-    right: 300px;
-}
-
-.logo {
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.toggle {
-    position: relative;
-    width: 60px;
-    height: 50px;
-    background: url('../images/Menue.png');
-    background-repeat: no-repeat;
-    background-size: 30px;
-    background-position: center;
-    cursor: pointer;
-}
-
-.toggle.active {
-    background: url('../images/Close.png');
-    background-repeat: no-repeat;
-    background-size: 30px;
-    background-position: center;
-    cursor: pointer;
-}
-
-.menu {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 300px;
-    height: 100%;
-    display: flex;
-    align-items: center;
+.heading {
+    margin-top: 2em;
+    display:flex;
     justify-content: center;
-
+    align-items: center;
 }
 
-.menu ul {
-    position: relative;
-    list-style: none;
-}
-
-.menu ul li a {
-    text-decoration: none;
-    font-size: 24px;
-    color: #111;
-}
-
-.menu ul li a:hover {
-    color: white;
+.heading h1 {
+    font-size: 3em;
+    font-weight: 800;
+    line-height: 2em;
+    text-transform: uppercase;
 }

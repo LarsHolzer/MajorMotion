@@ -6,22 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="../styles/portfolioStyles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
-    <section class="showcase">
+    <section class="showcase showcase_portfolio">
         <header>
-            <h2 class="logo">Portfolio</h2>
-            <div class="toggle"></div>
+            <h2 class="logo" onclick="mylandingpage()"> Major Motion</h2>
+            <!-- <div class="toggle"></div> -->
+            <span id="open_btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         </header>
+        <div class="heading">
+            <h1>Portfolio</h1>
+        </div>
     </section>
-
-    <div class="menu">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
+    <footer class="footer">
+        <ul class="social">
+            <li><a href="https://www.instagram.com/majormotion.exe/"><img src="../images/InstaSmaller.png" alt=""></a> </li>
+         </ul>
+    </footer>
+    <label>
+        <div id="mySidenav" class="sidenav">
+            <ul>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </label>
     <script src="../JS/script.js"></script>
 </body>
 </html>
