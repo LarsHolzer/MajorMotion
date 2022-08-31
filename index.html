@@ -12,7 +12,8 @@
     <section class="showcase">
         <header>
             <h2 class="logo"> Major Motion</h2>
-            <div class="toggle"></div>
+            <!-- <div class="toggle"></div> -->
+            <span id="open_btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         </header>
         <div class="video-section">
             <video src="videos/Backround.mp4"muted loop autoplay></video> 
@@ -75,8 +76,9 @@
         </form>
     </div>
 <label>
-    <div class="menu_slide">
+    <div id="mySidenav" class="sidenav">
         <ul>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <li><a href="pages/portfolio.html">Portfolio</a></li>
             <li><a href="pages/news.html">News</a></li>
             <li><a href="pages/contact.html">Contact</a></li>
