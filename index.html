@@ -14,27 +14,50 @@
             <h2 class="logo"> Major Motion</h2>
             <div class="toggle"></div>
         </header>
-        <video src="videos/Backround.mp4"muted loop autoplay></video> 
+        <div class="video-section">
+            <video src="videos/Backround.mp4"muted loop autoplay></video> 
 
-        <div class="overlay"></div>
+            <div class="overlay"></div>
+    
+            <div class="text">
+                <h2>What`s our mission?</h2>
+                <h3>Make your BUSINESS stand out!</h3>
+                <p> Hi! We are Major Motion and welcome to our website. We`re creative producers and 
+                    visionary filmmakers based in Hannover Germany. We help automotive- or other companies to
+                    grow their business.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, modi.
+                </p>
+            </div>
 
-        <div class="text">
-            <h2>What`s our mission?</h2>
-            <h3>Make your idea stand out!</h3>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit
-                . Nostrum, cupiditate laboriosam ut quas in aliquam rerum
-                 similique fuga accusantium adipisci?
-            </p>
+        </div>
+        <div class="images">
+            <div class="img" id="first_img"><img src="/images/Front Blur.jpg" alt=""></div> 
+            <div class="img"><img src="/images/P1033297-Edit.jpg" alt=""></div> 
+            <div class="img"><img src="/images/P1033279.jpg" alt=""></div> 
+         </div>
+        <div class="main">
+            <div class="text-main">
+                <h3>Title of the Main Section</h3>
+        
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore
+                        provident, sed ullam ratione ducimus in. Incidunt aliquid blanditiis unde?</p>
+                </div>
+            </div>
             <button class="open-button" onclick="openForm()">Contact us</button>
         </div>
-
-        <ul class="social">
-           <li><a href="https://www.instagram.com/majormotion.exe/"><img src="images/InstaSmaller.png" alt=""></a> </li>
-        </ul>
     </section>
 
+    <footer class="footer">
+        <ul class="social">
+            <li><a href="https://www.instagram.com/majormotion.exe/"><img src="images/InstaSmaller.png" alt=""></a> </li>
+         </ul>
+    </footer>
+
     <div class="form-popup" id="myForm">
-        <form action="" class="form-container">
+        <form action="" class="form-container" id="myForm">
             <h1 id="popup-title">Contact</h1>
 
             <label class="label" for="name">Your Name</label>
@@ -51,14 +74,16 @@
     
         </form>
     </div>
-
-    <div class="menu">
+<label>
+    <div class="menu_slide">
         <ul>
             <li><a href="pages/portfolio.html">Portfolio</a></li>
             <li><a href="pages/news.html">News</a></li>
             <li><a href="pages/contact.html">Contact</a></li>
         </ul>
     </div>
+</label>
+    
     <script src="JS/script.js"></script>
 </body>
 </html>
